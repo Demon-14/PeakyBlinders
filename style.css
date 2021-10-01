@@ -108,7 +108,7 @@ body{
 }
 
 @media only screen and (max-width:768px){
-    #image4,#image3{
+    #image4{
         widht:351px;
         height:211px;
     }
