@@ -108,6 +108,9 @@ body{
 }
 
 @media only screen and (max-width:768px){
+    #image4{
+        widht:426px;
+    }
     .pics,.character{
         flex-direction: column;
         align-items: center;
