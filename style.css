@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+
+*{
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: grey;
+    font-family: 'Bonheur Royale', cursive;
+}
+.heading{
+    font-size: 8rem;
+    text-align: center;
+}
+.pics{
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+#image1{
+    background-image: url('image1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 192px;
+    width: 387px;
+    margin: 2px;
+}
+#image2{
+    background-image: url('image2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 192px;
+    width: 387px;
+    margin: 2px;
+}
+#image3{
+    background-image: url('image3.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 192px;
+    width: 426px;
+    margin: 2px;
+}
+#image4{
+    background-image: url('image4.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 180px;
+    width: 426px;
+    margin: 2px;
+}
+#image1:hover,#image2:hover,#image3:hover,#image4:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+#about-heading,#character-heading{
+    font-size: 6rem;
+    text-align: center;
+
+}
+#plot{
+    margin: 3px;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.character{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    margin: 4px;
+    width: 100vw;
+    justify-content: center;
+}
+.character p{
+    text-align: center;
+    font-size: 3rem;
+}
+#Cimage1 img{
+    height: 400px;
+    width: 250px;
+    margin: 15px;
+}
+#Cimage2 img{
+    height: 400px;
+    width: 250px;
+    margin: 15px;
+}
+#Cimage3 img{
+    height: 400px;
+    width: 250px;
+    margin: 15px;
+}
+#Cimage4 img{
+    height: 400px;
+    width: 250px;
+    margin: 15px;
+}
+#Cimage1:hover,#Cimage2:hover,#Cimage3:hover,#Cimage4:hover{
+    cursor: pointer;
+    opacity: 0;
+    transition: 1s;
+}
+
+@media only screen and (max-width:768px){
+    .pics,.character{
+        flex-direction: column;
+        align-items: center;
+    }
+}
