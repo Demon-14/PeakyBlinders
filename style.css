@@ -112,7 +112,10 @@ body{
     cursor: pointer;
     transform: scale(0);
     }
-    #image4,#image3{
+    #image3{
+        width:400px;
+    }
+    #image4{
         width:351px;
         height:211px;
     }
