@@ -108,7 +108,11 @@ body{
 }
 
 @media only screen and (max-width:768px){
-    #image4{
+    #image1:hover,#image2:hover,#image3:hover,#image4:hover{
+    cursor: pointer;
+    transform: scale(0);
+    }
+    #image4,#image3{
         width:351px;
         height:211px;
     }
