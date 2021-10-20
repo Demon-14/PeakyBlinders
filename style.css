@@ -14,6 +14,10 @@ body{
 .heading{
     font-size: 8rem;
     text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 6px;
+    text-underline-offset:40px ;
+    margin-bottom: 50px;
 }
 .pics{
     justify-content: center;
@@ -25,35 +29,39 @@ body{
 }
 #image1{
     background-image: url('image1.jpg');
-    background-size: contain;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 192px;
-    width: 387px;
+    height: 230px;
+    width: 340px;
     margin: 2px;
+    margin-right: 20px;
 }
 #image2{
     background-image: url('image2.jpg');
-    background-size: contain;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 192px;
-    width: 387px;
+    height: 230px;
+    width: 340px;
     margin: 2px;
+    margin-right: 20px;
 }
 #image3{
     background-image: url('image3.jpg');
-    background-size: contain;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 192px;
-    width: 426px;
+    height: 230px;
+    width: 340px;
     margin: 2px;
+    margin-right: 20px;
 }
 #image4{
     background-image: url('image4.jpg');
-    background-size: contain;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 180px;
-    width: 426px;
+    height: 230px;
+    width: 340px;
     margin: 2px;
+    margin-right: 20px;
 }
 #image1:hover,#image2:hover,#image3:hover,#image4:hover{
     cursor: pointer;
@@ -62,7 +70,10 @@ body{
 #about-heading,#character-heading{
     font-size: 6rem;
     text-align: center;
-
+				text-decoration: underline;
+    text-decoration-thickness: 6px;
+    text-underline-offset:10px ;
+    margin-bottom: 50px;
 }
 #plot{
     margin: 3px;
@@ -106,18 +117,44 @@ body{
     opacity: 0;
     transition: 1s;
 }
+#image1,#image2,#image3,#image4,#Cimage1 img,#Cimage2 img,#Cimage3 img,#Cimage4 img{
+    				box-shadow: 3px 3px 4px white;
+    }
 
 @media only screen and (max-width:768px){
     #image1:hover,#image2:hover,#image3:hover,#image4:hover{
     cursor: pointer;
     transform: none;
     }
+    #image1,#image2{
+    				position: relative;
+    				right: 23px;
+    				margin-bottom: 9px;
+    }
+    #image3{
+    				position: relative;
+    				right: 23px;
+    				background-size: 100% 100%;
+    				width: 340px;
+    				height: 200px;
+    				margin-bottom: 9px;
+    }
     #image4{
-        width:351px;
-        height:211px;
+    position: relative;
+    background-size: 100% 100%;
+       width: 340px;
+        height:230px;
+        right: 23px;
+        margin-bottom: 9px;
     }
     .pics,.character{
         flex-direction: column;
         align-items: center;
     }
+    #Cimage1,#Cimage2,#Cimage3,#Cimage4{
+    				border-bottom: 2px solid white;
+    				margin-bottom: 20px;
+    }
+    
+ 
 }
