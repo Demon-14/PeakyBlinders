@@ -118,7 +118,7 @@ body{
     transition: 1s;
 }
 #image1,#image2,#image3,#image4,#Cimage1 img,#Cimage2 img,#Cimage3 img,#Cimage4 img{
-    				box-shadow: 3px 3px 4px white;
+    				box-shadow: 3px 3px 4px #ffffff;
     }
 
 @media only screen and (max-width:768px){
