@@ -152,7 +152,7 @@ body{
         align-items: center;
     }
     #Cimage1,#Cimage2,#Cimage3,#Cimage4{
-    				border-bottom: 2px solid white;
+    				border-bottom: 2px solid #fff;
     				margin-bottom: 20px;
     }
     
